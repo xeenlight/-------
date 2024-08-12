@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "TT Hoves";
+    color: #222222;
+
+}
+
+section {
+    padding: 0 121px;
+    margin-bottom: 160px;
+    position: relative;
+}
+
+
+.logo {
+    width: 295px;
+    margin-top: 37px;
+    margin-bottom: 85px;
+}
+
+.logoBig {
+    width: 395px;
+    position: absolute; 
+    top: 121px; 
+    left: 827px; 
+}
+
+.course_info {
+    display: flex;
+    gap: 161px;
+    margin-bottom: 76px;
+}
+
+.course_info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 21px;
+    line-height: 140%;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-size: 21px;
+    line-height: 140%;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: "Chava";
+    font-size: 80px;
+    color: #222222;
+    margin-top: 76px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+p {
+    width: 930px;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 37.8px;
+    margin-bottom: 20px;
+}
+
+.primary {
+    width: 328px;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background: #6E3ABA;
+}
+
+.secondary {
+    width: 328px;
+    font-size: 18px;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    color: #6E3ABA;
+    background: #FFFFFF;
+    border: 1px solid #6E3ABA;
+}
+h2{
+    width: 769px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68.32px;
+    letter-spacing: 0.01em;
+    margin-bottom: 90px;
+    text-align: left;
+}
+.humans{
+    display: flex;
+    gap: 70px;
+    margin-bottom: 52px;
+}
+
+.humans div {
+    display: flex;
+    flex-direction: column;
+    width: Hug (450px)px;
+    height: Hug (506px)px;
+    top: 226px;
+    left: 120px;
+    gap: 10px;
+}
+.Backend{
+    width: 192px;
+    top: -49px;
+    left: -39px;
+}
+.STUD{
+    width: 192px;
+    top: -31px;
+    left: -32px;
+}
+.title1 {
+    width: 450px;
+    height: 38px;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.subtitle1 {
+    width: 450px;
+    height: 228px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.8px;
+    text-align: left;
+
+}
+.humans1{
+    display: flex;
+    gap: 70px;
+    margin-bottom: 52px;
+}
+
+.humans1 div {
+    display: flex;
+    flex-direction: column;
+    width: Hug (477px)px;
+    height: Hug (506px)px;
+    top: 784px;
+    left: 640px;
+    gap: 10px;   
+}
+.Program{
+    width: 192px;
+    top: -49px;
+    left: -39px;
+}
+.NewWork{
+    width: 192px;
+    top: -31px;
+    left: -32px;
+}
+.title2 {
+    width: 450px;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 37.8px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.subtitle2 {
+    width: 450px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+}
+.purple-section {
+    padding: 0; 
+    margin: 0;
+    margin-bottom: 160px;
+}
+.purple {
+    position: relative;
+    width: 1280px;
+    height: 623px;
+    background: #6E3ABA;
+    left: 0;
+    text-align: center;
+    overflow: hidden; 
+}
+.sale {
+    width: 676px;
+    color: white;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 57px;
+    margin-left: 302px;
+}
+
+.NULI {
+    display: flex;
+    margin-left: 164px;
+    width: 923px;
+    gap: 90px;
+    opacity: 1; 
+}
+
+.num {
+    font-family: "Chava";
+    font-size: 174px;
+    font-weight: 400;
+    line-height: 198px;
+    color: #2F1D4E;
+}
+
+.DATA {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 31.81px;
+    color: #2F1D4E;
+}
+
+.ButSell {
+    width: 328px;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 12px;
+    color: #6E3ABA;
+    background: #FFFFFF;
+    margin-top: 57px;
+}
+.month{
+font-size: 58px;
+font-weight: 500;
+line-height: 68.32px;
+letter-spacing: 0.01em;
+margin-bottom: 90px;
+text-align: left;
+}
+.menPh{
+    width: 399px;
+height: 562px;
+top: 158px;
+left: 119px;
+gap: 0px;
+opacity: 0px;
+}
+.men1{
+    width: Hug (566px)px;
+    height: Hug (154px)px;
+    top: 167px;
+    left: 569px;
+    gap: 20px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.name1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    width: 566px;
+    height: 58px;
+    gap: 20px;
+    opacity: 0px;
+    margin-left: 52px;
+}
+.name2{
+    width: 566px;
+    height: 76px;
+    gap: 0px;
+    opacity: 0px;    
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.8px;
+    text-align: left;
+    margin-left: 52px;
+}
+.Punkt{
+    display: flex;
+    gap: 90px;
+
+}
+.Punkt div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 51px;
+    margin-top: 90px;
+}
+.Punkt1{
+    display: flex;
+    gap: 90px;
+
+}
+.Punkt1 div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 51px;
+    margin-top: 40px;
+    
+}
+.logoText{
+    width: 36px;
+gap: 304px;
+opacity: 0px;
+margin-bottom: 10px;
+}
+.textNam{
+    width: 250px;
+height: 58px;
+gap: 0px;
+opacity: 0px;
+font-size: 21px;
+font-weight: 400;
+line-height: 29.4px;
+text-align: left;
+}
+.work{
+    width: 1022px;
+height: 136px;
+left: 120px;
+gap: 0px;
+opacity: 0px;
+
+font-size: 58px;
+font-weight: 500;
+line-height: 68.32px;
+letter-spacing: 0.01em;
+text-align: left;
+}
+.list{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 90px;
+}
+
+.list div {
+    display: flex;
+    flex-direction: column;
+    width: Hug (428px)px;
+    height: Hug (248px)px;
+    top: 226px;
+    left: 640px;
+    gap: 20px;
+    opacity: 0px;
+    
+     
+}
+.title3 {
+    width: 450px;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 37.8px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.subtitle3 {
+    width: 450px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+}

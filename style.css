@@ -363,3 +363,10 @@ letter-spacing: 0.01em;
     line-height: 37px;
     text-align: left;
 }
+@media(min-width: 375px){
+    section { 
+        padding: 0 23.5px; 
+        margin-bottom: 60px; 
+        position: relative; 
+    } 
+}

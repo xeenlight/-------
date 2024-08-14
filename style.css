@@ -1,92 +1,132 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "TT Hoves";
-    color: #222222;
-
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: "TT Hoves"; 
+    color: #222222; 
+ 
+} 
+ 
+section { 
+    padding: 0 calc(11vw + 18.564px); 
+    margin-bottom: calc(11vw + 18.564px); 
+    position: relative; 
+} 
+ 
+ 
+.logo { 
+    width: 295px; 
+    margin-top: 37px; 
+    margin-bottom: 85px; 
+} 
+ 
+.logoBig { 
+background-image: url(./image/html_css_js\ 1.png); 
+background-repeat: no-repeat; 
+background-size: 30vw; 
+background-position: right 58px top 121px;  
+} 
+ 
+.course_info { 
+    display: flex; 
+    gap: 161px; 
+    margin-bottom: 76px; 
+} 
+ 
+.course_info div { 
+    display: flex; 
+    flex-direction: column; 
+} 
+ 
+.title { 
+    font-size: 21px; 
+    line-height: 140%; 
+    font-weight: 400; 
+} 
+ 
+.subtitle { 
+    font-size: 21px; 
+    line-height: 140%; 
+    font-weight: 700; 
+} 
+ 
+h1 { 
+    font-family: "Chava"; 
+    font-size: calc(4.2vw + 26.25px); 
+    color: #222222; 
+    margin-top: 76px; 
+    margin-bottom: 40px; 
+    font-weight: 400; 
+} 
+ 
+p { 
+    width: 930px; 
+    font-size: 27px; 
+    font-weight: 300; 
+    line-height: 37.8px; 
+    margin-bottom: 20px; 
+} 
+ 
+.primary { 
+    width: 328px; 
+    font-size: 18px; 
+    padding: 20px; 
+    border-radius: 12px; 
+    color: #FFFFFF; 
+    background: #6E3ABA; 
+} 
+ 
+.secondary { 
+    width: 328px; 
+    font-size: 18px; 
+    padding: 20px; 
+    margin-left: 20px; 
+    border-radius: 12px; 
+    color: #6E3ABA; 
+    background: #FFFFFF; 
+    border: 1px solid #6E3ABA; 
+} 
+.bg{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 57px; 
+    align-items: center; 
+    background-color: #6e3aba; 
+    padding: 84px 0; 
+} 
+.sell{ 
+    font-size: 52px; 
+    line-height: 117%; 
+    color: white; 
+} 
+.sell_container{ 
+    display: flex; 
+    gap: 85px; 
+} 
+.sell_card .time{ 
+    font-family: "Chava"; 
+    font-size: 174px; 
+    line-height: 107%; 
+} 
+.sell_card span{ 
+    display: block; 
+    font-size: 27px; 
+    font-weight: 500; 
+    line-height: 117%; 
+    text-align: center; 
+    margin-left: 10px; 
+} 
+.secondary{ 
+    border-radius: 12px; 
+    background-color: #FFFFFF; 
+    width: 328px; 
+    padding: 20px 0; 
+    font-size: 18px; 
+    font-weight: 500px; 
+    line-height: 117%; 
+    color:#6e3aba; 
 }
-
-section {
-    padding: 0 121px;
-    margin-bottom: 160px;
-    position: relative;
-}
-
-
-.logo {
-    width: 295px;
-    margin-top: 37px;
-    margin-bottom: 85px;
-}
-
-.logoBig {
-    width: 395px;
-    position: absolute; 
-    top: 121px; 
-    left: 827px; 
-}
-
-.course_info {
-    display: flex;
-    gap: 161px;
-    margin-bottom: 76px;
-}
-
-.course_info div {
-    display: flex;
-    flex-direction: column;
-}
-
-.title {
-    font-size: 21px;
-    line-height: 140%;
-    font-weight: 400;
-}
-
-.subtitle {
-    font-size: 21px;
-    line-height: 140%;
-    font-weight: 700;
-}
-
-h1 {
-    font-family: "Chava";
-    font-size: 80px;
-    color: #222222;
-    margin-top: 76px;
-    margin-bottom: 40px;
-    font-weight: 400;
-}
-
-p {
-    width: 930px;
-    font-size: 27px;
-    font-weight: 300;
-    line-height: 37.8px;
-    margin-bottom: 20px;
-}
-
-.primary {
-    width: 328px;
-    font-size: 18px;
-    padding: 20px;
-    border-radius: 12px;
-    color: #FFFFFF;
-    background: #6E3ABA;
-}
-
-.secondary {
-    width: 328px;
-    font-size: 18px;
-    padding: 20px;
-    margin-left: 20px;
-    border-radius: 12px;
-    color: #6E3ABA;
-    background: #FFFFFF;
-    border: 1px solid #6E3ABA;
-}
-h2{
+.course_list{
     width: 769px;
     font-size: 58px;
     font-weight: 500;
@@ -99,6 +139,7 @@ h2{
     display: flex;
     gap: 70px;
     margin-bottom: 52px;
+    flex-wrap: wrap;
 }
 
 .humans div {
@@ -111,12 +152,12 @@ h2{
     gap: 10px;
 }
 .Backend{
-    width: 192px;
+    width: calc(1.9vw + 167.956px);
     top: -49px;
     left: -39px;
 }
 .STUD{
-    width: 192px;
+    width: calc(1.9vw + 167.956px);
     top: -31px;
     left: -32px;
 }
@@ -143,6 +184,7 @@ h2{
     display: flex;
     gap: 70px;
     margin-bottom: 52px;
+    flex-wrap: wrap;
 }
 
 .humans1 div {
@@ -155,12 +197,12 @@ h2{
     gap: 10px;   
 }
 .Program{
-    width: 192px;
+    width: calc(1.9vw + 167.956px);
     top: -49px;
     left: -39px;
 }
 .NewWork{
-    width: 192px;
+    width: calc(1.9vw + 167.956px);
     top: -31px;
     left: -32px;
 }
@@ -180,53 +222,6 @@ h2{
     line-height: 37px;
     text-align: left;
 }
-.purple-section {
-    padding: 0; 
-    margin: 0;
-    margin-bottom: 160px;
-}
-.purple {
-    position: relative;
-    width: 1280px;
-    height: 623px;
-    background: #6E3ABA;
-    left: 0;
-    text-align: center;
-    overflow: hidden; 
-}
-.sale {
-    width: 676px;
-    color: white;
-    font-size: 52px;
-    font-weight: 700;
-    margin-top: 80px;
-    margin-bottom: 57px;
-    margin-left: 302px;
-}
-
-.NULI {
-    display: flex;
-    margin-left: 164px;
-    width: 923px;
-    gap: 90px;
-    opacity: 1; 
-}
-
-.num {
-    font-family: "Chava";
-    font-size: 174px;
-    font-weight: 400;
-    line-height: 198px;
-    color: #2F1D4E;
-}
-
-.DATA {
-    font-size: 27px;
-    font-weight: 500;
-    line-height: 31.81px;
-    color: #2F1D4E;
-}
-
 .ButSell {
     width: 328px;
     font-size: 18px;
@@ -324,29 +319,27 @@ line-height: 29.4px;
 text-align: left;
 }
 .work{
-    width: 1022px;
-height: 136px;
-left: 120px;
-gap: 0px;
-opacity: 0px;
 
-font-size: 58px;
+left: 120px;
+margin-bottom: 90px;
+font-size: calc(2.7vw + 24.055px); 
 font-weight: 500;
 line-height: 68.32px;
 letter-spacing: 0.01em;
-text-align: left;
+
 }
 .list{
     display: flex;
     gap: 120px;
     margin-bottom: 90px;
+    flex-wrap: wrap;
 }
 
 .list div {
     display: flex;
     flex-direction: column;
-    width: Hug (428px)px;
-    height: Hug (248px)px;
+    width: calc(11vw + 286.564px);
+ 
     top: 226px;
     left: 640px;
     gap: 20px;
@@ -356,7 +349,7 @@ text-align: left;
 }
 .title3 {
     width: 450px;
-    font-size: 27px;
+    font-size: calc(1vw + 14.271px);
     font-weight: 600;
     line-height: 37.8px;
     text-align: left;
@@ -365,7 +358,7 @@ text-align: left;
 
 .subtitle3 {
     width: 450px;
-    font-size: 27px;
+    font-size: calc(1vw + 14.271px);
     font-weight: 400;
     line-height: 37px;
     text-align: left;

@@ -8,45 +8,48 @@
 } 
  
 section { 
-    padding: 0 calc(11vw + 18.564px); 
+    padding: 0 calc(10.7vw  - 16.486px); 
     margin-bottom: calc(11vw + 18.564px); 
     position: relative; 
 } 
  
  
 .logo { 
-    width: 295px; 
-    margin-top: 37px; 
-    margin-bottom: 85px; 
+    width: calc(8.8vw + 182.049px); 
+    margin-top: calc(-0.3vw +  41.243px); 
+    margin-bottom: calc(6.3vw +  4.381px); 
 } 
  
 .logoBig { 
 background-image: url(./image/html_css_js\ 1.png); 
 background-repeat: no-repeat; 
-background-size: 30vw; 
-background-position: right 58px top 121px;  
+background-size: calc(23.9vw +  89.497px);
+background-position: right calc(6vw - 19.083px)  top calc(4.9vw + 58.768px);
 } 
  
 .course_info { 
     display: flex; 
-    gap: 161px; 
-    margin-bottom: 76px; 
+    gap: calc(14.5vw - 24.282px); 
+    margin-bottom: calc(3.1vw + 36.398px); 
+    flex-wrap: wrap; 
 } 
  
 .course_info div { 
     display: flex; 
-    flex-direction: column; 
+    flex-direction: column;
+
 } 
  
 .title { 
-    font-size: 21px; 
-    line-height: 140%; 
+    font-size: calc(0.6vw + 13.928px); 
+    line-height: calc(0.8vw + 19.499px); 
     font-weight: 400; 
+    width: calc(6vw + 150.624px); 
 } 
  
 .subtitle { 
-    font-size: 21px; 
-    line-height: 140%; 
+    font-size: calc(0.6vw + 13.928px);  
+    line-height: calc(0.8vw + 19.499px); 
     font-weight: 700; 
 } 
  
@@ -54,19 +57,23 @@ h1 {
     font-family: "Chava"; 
     font-size: calc(4.2vw + 26.25px); 
     color: #222222; 
-    margin-top: 76px; 
-    margin-bottom: 40px; 
+    margin-top: calc(3.1vw + 36.398px); 
+    margin-bottom: calc(2.2vw + 11.713px); 
     font-weight: 400; 
 } 
  
-p { 
-    width: 930px; 
-    font-size: 27px; 
+.About { 
+    width: calc(66.5vw + 78.552px); 
+    font-size: calc(1vw + 14.271px);
     font-weight: 300; 
-    line-height: 37.8px; 
+    line-height: calc(1.4vw + 19.979px);  
     margin-bottom: 20px; 
 } 
- 
+ .ButtonTwo{
+    display: flex;
+    gap: calc(1.1vw + 15.856px);
+    flex-wrap: wrap;
+ }
 .primary { 
     width: 328px; 
     font-size: 18px; 
@@ -78,75 +85,31 @@ p {
  
 .secondary { 
     width: 328px; 
-    font-size: 18px; 
+    font-size:  18px; 
     padding: 20px; 
-    margin-left: 20px; 
     border-radius: 12px; 
     color: #6E3ABA; 
     background: #FFFFFF; 
     border: 1px solid #6E3ABA; 
 } 
-.bg{ 
-    display: flex; 
-    flex-direction: column; 
-    gap: 57px; 
-    align-items: center; 
-    background-color: #6e3aba; 
-    padding: 84px 0; 
-} 
-.sell{ 
-    font-size: 52px; 
-    line-height: 117%; 
-    color: white; 
-} 
-.sell_container{ 
-    display: flex; 
-    gap: 85px; 
-} 
-.sell_card .time{ 
-    font-family: "Chava"; 
-    font-size: 174px; 
-    line-height: 107%; 
-} 
-.sell_card span{ 
-    display: block; 
-    font-size: 27px; 
-    font-weight: 500; 
-    line-height: 117%; 
-    text-align: center; 
-    margin-left: 10px; 
-} 
-.secondary{ 
-    border-radius: 12px; 
-    background-color: #FFFFFF; 
-    width: 328px; 
-    padding: 20px 0; 
-    font-size: 18px; 
-    font-weight: 500px; 
-    line-height: 117%; 
-    color:#6e3aba; 
-}
 .course_list{
-    width: 769px;
-    font-size: 58px;
+    width: calc(48.7vw + 145.265px); 
+    font-size: calc(2.7vw + 24.055px); 
     font-weight: 500;
-    line-height: 68.32px;
-    letter-spacing: 0.01em;
-    margin-bottom: 90px;
-    text-align: left;
+    line-height: calc(3.1vw +  28.336px); 
+    margin-bottom: calc(5.5vw + 19.282px); 
+
 }
 .humans{
     display: flex;
-    gap: 70px;
-    margin-bottom: 52px;
+    gap: calc(5.5vw + 19.282px);
+    margin-bottom: calc(1.3vw + 35.028px);
     flex-wrap: wrap;
 }
-
 .humans div {
     display: flex;
     flex-direction: column;
-    width: Hug (450px)px;
-    height: Hug (506px)px;
+    width: calc(13.5vw + 277.448px);
     top: 226px;
     left: 120px;
     gap: 10px;
@@ -161,41 +124,6 @@ p {
     top: -31px;
     left: -32px;
 }
-.title1 {
-    width: 450px;
-    height: 38px;
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 20px;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.subtitle1 {
-    width: 450px;
-    height: 228px;
-    font-size: 27px;
-    font-weight: 400;
-    line-height: 37.8px;
-    text-align: left;
-
-}
-.humans1{
-    display: flex;
-    gap: 70px;
-    margin-bottom: 52px;
-    flex-wrap: wrap;
-}
-
-.humans1 div {
-    display: flex;
-    flex-direction: column;
-    width: Hug (477px)px;
-    height: Hug (506px)px;
-    top: 784px;
-    left: 640px;
-    gap: 10px;   
-}
 .Program{
     width: calc(1.9vw + 167.956px);
     top: -49px;
@@ -206,132 +134,144 @@ p {
     top: -31px;
     left: -32px;
 }
-.title2 {
-    width: 450px;
-    font-size: 27px;
+.title1 {
+    width: calc(10.2vw + 289.878px);
+    font-size: calc(1vw + 14.271px);
     font-weight: 600;
-    line-height: 37.8px;
+    line-height: calc(1.4vw + 19.979px);
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: calc(1.1vw +  5.856px);
+}
+
+.subtitle1 {
+    width: calc(10.2vw + 289.878px);
+    font-size: calc(1vw + 14.271px);
+    font-weight: 400;
+    line-height: calc(1.4vw + 19.979px);
+    text-align: left;
+
+}
+.title2 {
+    width: calc(10.2vw + 289.878px);
+    font-size: calc(1vw + 14.271px);
+    font-weight: 600;
+    line-height: calc(1.4vw + 19.979px);
+    text-align: left;
+    margin-bottom: calc(1.1vw +  5.856px);
 }
 
 .subtitle2 {
-    width: 450px;
-    font-size: 27px;
+    width: calc(10.2vw + 289.878px);
+    font-size: calc(1vw + 14.271px);
     font-weight: 400;
-    line-height: 37px;
+    line-height: calc(1.4vw + 19.979px);
     text-align: left;
 }
-.ButSell {
-    width: 328px;
-    font-size: 18px;
-    padding: 20px;
-    border-radius: 12px;
-    color: #6E3ABA;
-    background: #FFFFFF;
-    margin-top: 57px;
-}
+.bg{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: calc(4.1vw + 4.669px); 
+    align-items: center; 
+    background-color: #6e3aba; 
+    padding: calc(4.9vw + 21.768px) 0; 
+} 
+.sell{ 
+    width: calc(38.2vw + 186.63px);
+    font-size: calc(2vw + 26.541px);
+    line-height: 117%; 
+    color: white; 
+    text-align: center;
+} 
+.sell_container{ 
+    display: flex; 
+    gap: calc(6.1vw + 7.21px);
+} 
+.sell_card .time{ 
+    font-family: "Chava"; 
+    font-size: calc(12.6vw + 12.762px);
+    line-height: 107%; 
+} 
+.sell_card span{ 
+    display: block; 
+    font-size: calc(1.9vw + 2.956px);
+    font-weight: 500; 
+    line-height: 117%; 
+    text-align: center; 
+    margin-left: 10px; 
+} 
 .month{
-font-size: 58px;
-font-weight: 500;
-line-height: 68.32px;
-letter-spacing: 0.01em;
-margin-bottom: 90px;
-text-align: left;
+    width: calc(48.7vw + 145.265px); 
+    font-size: calc(2.7vw + 24.055px); 
+    font-weight: 500;
+    line-height: calc(3.1vw +  28.336px); 
+    margin-bottom: calc(5.5vw + 19.282px); 
 }
-.menPh{
-    width: 399px;
-height: 562px;
-top: 158px;
-left: 119px;
-gap: 0px;
-opacity: 0px;
-}
-.men1{
-    width: Hug (566px)px;
-    height: Hug (154px)px;
-    top: 167px;
-    left: 569px;
-    gap: 20px;
-    opacity: 0px;
+.MenInfo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 20px 51px;
+    flex-wrap: wrap;
 }
-.name1{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
-    text-align: left;
-    width: 566px;
-    height: 58px;
-    gap: 20px;
-    opacity: 0px;
-    margin-left: 52px;
+.MenPfoto{
+    width: calc(7.7vw + 299.994px); 
+    height: calc(10.8vw + 423.392px);   
 }
-.name2{
+.MenConteiner{
+    flex-basis: calc(10.4vw + 117.05px); 
+    flex-grow: 1;
+}
+.MenConteiner h4 {
     width: 566px;
-    height: 76px;
-    gap: 0px;
-    opacity: 0px;    
-    font-size: 27px;
+font-size: calc(1.1vw + 33.856px); 
+font-weight: 700;
+line-height: calc(1.5vw + 39.274px); 
+margin-top: calc();
+margin-bottom: calc(1.1vw + 5.856px); 
+}
+.MenConteiner p {
+    width: calc(26.3vw + 229.381px); 
+    font-size: calc(1vw + 14.271px); 
     font-weight: 400;
-    line-height: 37.8px;
-    text-align: left;
-    margin-left: 52px;
+    line-height: calc(1.4vw + 19.979px); 
+    margin-bottom: calc(5.5vw + 19.282px); 
 }
-.Punkt{
-    display: flex;
-    gap: 39px;
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    width: calc(10.4vw + 117.05px); 
+    gap:  calc(1.1vw + 25.856px) calc(8.8vw - 23.149px); 
 
 }
-.Punkt div{
+.skill {
     display: flex;
-    flex-direction: column;
-    margin-left: 51px;
-    margin-top: 90px;
+    flex-direction: column; 
+    gap: 10px; 
 }
-.Punkt1{
-    display: flex;
-    gap: 39px;
-
-}
-.Punkt1 div{
-    display: flex;
-    flex-direction: column;
-    margin-left: 51px;
-    margin-top: 40px;
-    
-}
-.logoText{
+.skill img {
     width: 36px;
-gap: 304px;
-opacity: 0px;
-margin-bottom: 10px;
 }
-.textNam{
-    width: 250px;
-height: 58px;
-gap: 0px;
-opacity: 0px;
-font-size: 21px;
-font-weight: 400;
-line-height: 29.4px;
-text-align: left;
+.skill span {
+    width: calc(7.6vw + 127.409px); 
+    font-size: calc(0.6vw + 13.928px); 
+    font-weight: 400;
+    line-height: calc(0.5vw +  23.46px); 
 }
-.work{
 
-left: 120px;
-margin-bottom: 90px;
-font-size: calc(2.7vw + 24.055px); 
-font-weight: 500;
-line-height: 68.32px;
-letter-spacing: 0.01em;
+
+.work{
+    width: calc(48.7vw + 145.265px); 
+    font-size: calc(2.7vw + 24.055px); 
+    font-weight: 500;
+    line-height: calc(3.1vw +  28.336px); 
+    margin-bottom: calc(5.5vw + 19.282px); 
+    text-align: left;
 
 }
 .list{
     display: flex;
-    gap: 120px;
-    margin-bottom: 90px;
+    gap: calc(9.9vw - 7.293px);
+    margin-bottom: calc(6.6vw +  5.138px); 
     flex-wrap: wrap;
 }
 
@@ -339,34 +279,23 @@ letter-spacing: 0.01em;
     display: flex;
     flex-direction: column;
     width: calc(11vw + 286.564px);
- 
-    top: 226px;
-    left: 640px;
-    gap: 20px;
-    opacity: 0px;
-    
-     
+    gap: calc(1.1vw +  5.856px); 
+    opacity: 0px; 
 }
 .title3 {
-    width: 450px;
+    width: calc(8vw + 298.166px);
     font-size: calc(1vw + 14.271px);
     font-weight: 600;
-    line-height: 37.8px;
-    text-align: left;
-    margin-bottom: 20px;
+    line-height: calc(1.4vw + 19.979px);
+    margin-bottom: calc(1.1vw + 5.856px);
 }
 
 .subtitle3 {
-    width: 450px;
+    width: calc(8vw + 298.166px);
     font-size: calc(1vw + 14.271px);
     font-weight: 400;
-    line-height: 37px;
-    text-align: left;
+    line-height: calc(1.4vw + 19.979px);
+    margin-bottom: calc(1.1vw + 5.856px);
 }
-@media(min-width: 375px){
-    section { 
-        padding: 0 23.5px; 
-        margin-bottom: 60px; 
-        position: relative; 
-    } 
-}
+
+

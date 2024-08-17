@@ -320,7 +320,7 @@ margin-bottom: calc(1.1vw + 5.856px);
     font-weight: 400;
     line-height: calc(0.5vw +  23.46px); 
 }
-@media(max-width: 575px) {
+@media(max-width: 375px) {
     .test{
         grid-template-columns: 1fr;
         grid-template-rows: 120px 229px 75px;
@@ -472,6 +472,17 @@ font-weight: 700;
     display: none; 
 } 
  
+@media (max-width: 575px) { 
+    .courseDesktop{ 
+        display: none; 
+    } 
+    .courseMobile{ 
+        display: block; 
+    } 
+    .courseProgramm{ 
+        margin-bottom: 30px; 
+    } 
+}
 
 
 

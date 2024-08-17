@@ -289,8 +289,8 @@ margin-bottom: calc(1.1vw + 5.856px);
 
 .test{
     display: grid;
-    grid-template-columns: 430px 1fr;
-    grid-template-rows: 136px 144px ;
+    grid-template-columns: calc(11.3vw +  284.985px)  1fr;
+    grid-template-rows: calc(1.8vw +  113.37)  calc(4.3vw +  58.84)  ;
     grid-template-areas:  "menu1 main "
                           "menu1 foot";
     gap: 20px;
@@ -320,7 +320,7 @@ margin-bottom: calc(1.1vw + 5.856px);
     font-weight: 400;
     line-height: calc(0.5vw +  23.46px); 
 }
-@media(max-width: 375px) {
+@media(max-width: 575px) {
     .test{
         grid-template-columns: 1fr;
         grid-template-rows: 120px 229px 75px;

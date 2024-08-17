@@ -319,7 +319,7 @@ margin-bottom: calc(1.1vw + 5.856px);
     font-weight: 400;
     line-height: calc(0.5vw +  23.46px); 
 }
-@media(max-width: 900px) {
+@media(max-width: 901px) {
     .test{
         grid-template-columns: 1fr;
         grid-template-rows: 120px 229px 75px;

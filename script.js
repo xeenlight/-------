@@ -10,7 +10,7 @@ function saleData(){
     let hoursValue = document.getElementsByClassName("time")[1];
     let minutesValue = document.getElementsByClassName("time")[2];
     let secondsValue = document.getElementsByClassName("time")[3];
-
+    
     dayValue.innerHTML=day
     hoursValue.innerHTML=hours
     minutesValue.innerHTML=minutes

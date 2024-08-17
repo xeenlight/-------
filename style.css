@@ -472,7 +472,7 @@ font-weight: 700;
     display: none; 
 } 
  
-@media (max-width: 375px) { 
+@media (max-width: 380px) { 
     .courseDesktop{ 
         display: none; 
     } 

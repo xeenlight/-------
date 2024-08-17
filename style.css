@@ -287,6 +287,23 @@ margin-bottom: calc(1.1vw + 5.856px);
 
 
 
+.test{
+    display: grid;
+    grid-template-columns: 430px 1fr;
+    grid-template-rows: 136px 144px ;
+    grid-template-areas:  "menu1 main "
+                          "menu1 foot";
+    gap: 20px;
+}
+.menu1{
+    grid-area: menu1;
+}
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: foot;
+}
 
 .diplomCourse{
     width: calc(27.6vw +  224.409px); 
@@ -294,27 +311,27 @@ margin-bottom: calc(1.1vw + 5.856px);
     font-weight: 500;
     line-height: calc(3.1vw +  28.336px); 
 }
-.diplom {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;  
-}
 .diplomImage {
     width: 100%;
     max-width: 430px;
-
-}
-.diplomConteiner {
-    width: calc(20.6vw +  250.928px); 
 }
 .diplomConteiner p {
-    font-size: calc(0.3vw +  16.757px); 
+    font-size: calc(1.1vw +  14.271px); 
     font-weight: 400;
     line-height: calc(0.5vw +  23.46px); 
-    margin-top: 20px;
-    margin-left: calc(2.1vw - 7.873px);
 }
+@media(max-width: 375px) {
+    .test{
+        grid-template-columns: 1fr;
+        grid-template-rows: 120px 229px 75px;
+        grid-template-areas:"main"
+                            "menu1"
+                            "foot";
+
+    }
+}
+
+
 
 
 
@@ -466,3 +483,9 @@ font-weight: 700;
         margin-bottom: 30px; 
     } 
 }
+
+
+
+
+
+

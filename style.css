@@ -4,7 +4,7 @@
     box-sizing: border-box; 
     font-family: "TT Hoves"; 
     color: #222222; 
-    outline: 2px solid red;
+
  
 } 
  
@@ -472,7 +472,7 @@ font-weight: 700;
     display: none; 
 } 
  
-@media (max-width: 575px) { 
+@media (max-width: 375px) { 
     .courseDesktop{ 
         display: none; 
     } 

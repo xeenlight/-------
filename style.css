@@ -4,8 +4,6 @@
     box-sizing: border-box; 
     font-family: "TT Hoves"; 
     color: #222222; 
-
- 
 } 
  
 section { 
@@ -320,7 +318,7 @@ margin-bottom: calc(1.1vw + 5.856px);
     font-weight: 400;
     line-height: calc(0.5vw +  23.46px); 
 }
-@media(max-width: 375px) {
+@media(max-width: 700px) {
     .test{
         grid-template-columns: 1fr;
         grid-template-rows: 120px 229px 75px;
@@ -472,7 +470,7 @@ font-weight: 700;
     display: none; 
 } 
  
-@media (max-width: 380px) { 
+@media (max-width: 700px) { 
     .courseDesktop{ 
         display: none; 
     } 

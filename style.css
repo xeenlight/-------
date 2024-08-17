@@ -287,23 +287,7 @@ margin-bottom: calc(1.1vw + 5.856px);
 
 
 
-.test{
-    display: grid;
-    grid-template-columns: calc(11.3vw +  284.985px)  1fr;
-    grid-template-rows: calc(1.8vw +  113.37)  calc(4.3vw +  58.84)  ;
-    grid-template-areas:  "menu1 main "
-                          "menu1 foot";
-    gap: 20px;
-}
-.menu1{
-    grid-area: menu1;
-}
-.main{
-    grid-area: main;
-}
-.footer{
-    grid-area: foot;
-}
+
 
 .diplomCourse{
     width: calc(27.6vw +  224.409px); 

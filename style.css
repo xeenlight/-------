@@ -509,49 +509,49 @@ font-weight: 700;
 
 
 .AboutText{
-    width: 511px;
-    font-size: 58px;
+    width: calc(20.2vw +   252.171px); 
+    font-size: calc(2.7vw +   24.055px); 
     font-weight: 500;
     line-height: 68.32px;
-    margin-bottom: 80px;
+    margin-bottom: calc(5.1vw +  14.939px); 
 }
 .AboutImg{
     width: 110px;
-    margin-bottom: 40px;
+    margin-bottom: calc(2.2vw + 11.713px); 
 }
 div .AboutInfo{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 97px;
+    gap: calc(6.3vw + 16.381px); 
 }
 
 div h6{
-    font-size: 58px;
+    width: calc(14.7vw +  272.89px); 
+    font-size: calc(2vw + 32.541px); 
     font-weight: 700;
-    line-height: 68.32px; 
+    line-height: calc(3.1vw + 28.336px); 
+    
 
 }
 .AboutInfo p{
-    width: 426px;
-    font-size: 27px;
+    width: calc(10.8vw +  287.392px); 
+    font-size: calc(0.6vw +  19.928px); 
     font-weight: 600;
     line-height: 37.8px;
     text-transform: uppercase;
+}
+
+.AboutConteiner p{
+    font-size: calc(0.6vw +  13.928px); 
+    font-weight: 400;
+    line-height: calc(0.8vw +  19.499px); 
+
+    
+    margin-bottom: calc(1.1vw +  25.856px); 
     
 }
-.AboutConteiner {
 
-    gap: 50px; 
-}
-
-.AboutConteiner span{
-    font-size: 21px;
-    font-weight: 400;
-    line-height: 29.4px;
-
-
-}
 
 
 

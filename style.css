@@ -109,8 +109,6 @@ h1 {
     display: flex;
     flex-direction: column;
     width: calc(13.5vw + 277.448px);
-    top: 226px;
-    left: 120px;
     gap: 10px;
 }
 .Backend{
@@ -182,6 +180,15 @@ h1 {
     text-align: center; 
     margin-left: 10px; 
 } 
+
+
+
+
+
+
+
+
+
 .month{
     width: calc(48.7vw + 145.265px); 
     font-size: calc(2.7vw + 24.055px); 
@@ -243,6 +250,9 @@ margin-bottom: calc(1.1vw + 5.856px);
 }
 
 
+
+
+
 .work{
     width: calc(48.7vw + 145.265px); 
     font-size: calc(2.7vw + 24.055px); 
@@ -271,7 +281,6 @@ margin-bottom: calc(1.1vw + 5.856px);
     font-size: calc(1vw + 14.271px);
     font-weight: 600;
     line-height: calc(1.4vw + 19.979px);
-    margin-bottom: calc(1.1vw + 5.856px);
 }
 
 .subtitle3 {
@@ -279,8 +288,14 @@ margin-bottom: calc(1.1vw + 5.856px);
     font-size: calc(1vw + 14.271px);
     font-weight: 400;
     line-height: calc(1.4vw + 19.979px);
-    margin-bottom: calc(1.1vw + 5.856px);
 }
+
+
+
+
+
+
+
 
 
 
@@ -302,7 +317,6 @@ margin-bottom: calc(1.1vw + 5.856px);
 .footer{
     grid-area: foot;
 }
-
 .diplomCourse{
     width: calc(27.6vw +  224.409px); 
     font-size: calc(2.7vw +  24.055px); 
@@ -328,6 +342,8 @@ margin-bottom: calc(1.1vw + 5.856px);
 
     }
 }
+
+
 
 
 
@@ -423,6 +439,9 @@ font-weight: 700;
 
 
 
+
+
+
 .courseProgramm{ 
     padding: calc(4.5vw +  23.011px)  calc(4.2vw +  4.254px) calc(1.1vw +  19.856px); 
     border: 2px solid black; 
@@ -481,6 +500,59 @@ font-weight: 700;
         margin-bottom: 30px; 
     } 
 }
+
+
+
+
+
+
+
+
+.AboutText{
+    width: 511px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68.32px;
+    margin-bottom: 80px;
+}
+.AboutImg{
+    width: 110px;
+    margin-bottom: 40px;
+}
+div .AboutInfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 97px;
+}
+
+div h6{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 68.32px; 
+
+}
+.AboutInfo p{
+    width: 426px;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 37.8px;
+    text-transform: uppercase;
+    
+}
+.AboutConteiner {
+
+    gap: 50px; 
+}
+
+.AboutConteiner span{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+
+
+}
+
 
 
 

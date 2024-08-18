@@ -527,7 +527,7 @@ font-weight: 700;
     
     font-size: calc(0.6vw +  19.499px); 
     font-weight: 600;
-    line-height: 37.8px;
+    line-height: calc(0.8vw +  27.899px); 
     text-transform: uppercase;
 
 }

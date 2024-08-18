@@ -523,7 +523,8 @@ font-weight: 700;
     gap: calc(6.3vw +  16.381px); 
 }
 .AboutInfo  p{
-    width: 426px;
+    width: calc(10.8vw + 287.392px); 
+    
     font-size: calc(0.6vw +  19.499px); 
     font-weight: 600;
     line-height: 37.8px;

@@ -4,6 +4,7 @@
     box-sizing: border-box; 
     font-family: "TT Hoves"; 
     color: #222222; 
+    outline: 2px solid red;
 } 
  
 section { 
@@ -509,15 +510,23 @@ font-weight: 700;
 
 
 .AboutText{
-    width: calc(20.2vw +   252.171px); 
-    font-size: calc(2.7vw +   24.055px); 
+    width: 100%;
+    max-width: 511px; 
+    font-size: calc(2.7vw +  24.055px); 
     font-weight: 500;
-    line-height: 68.32px;
-    margin-bottom: calc(5.1vw +  14.939px); 
+    line-height: calc(3.1vw +  28.336px); 
+    margin-bottom: calc(5.1vw +  14.939px);  
 }
 .AboutImg{
     width: 110px;
     margin-bottom: calc(2.2vw + 11.713px); 
+}
+.AboutInfo p{
+
+    font-size: calc(0.6vw +  19.499px); 
+    font-weight: 600;
+    line-height: 37.8px;
+    text-transform: uppercase;
 }
 div .AboutInfo{
     display: flex;
@@ -534,15 +543,10 @@ div h6{
     
 
 }
-.AboutInfo p{
-    width: calc(10.8vw +  287.392px); 
-    font-size: calc(0.6vw +  19.928px); 
-    font-weight: 600;
-    line-height: 37.8px;
-    text-transform: uppercase;
-}
+
 
 .AboutConteiner p{
+
     font-size: calc(0.6vw +  13.928px); 
     font-weight: 400;
     line-height: calc(0.8vw +  19.499px); 

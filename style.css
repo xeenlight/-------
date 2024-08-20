@@ -639,12 +639,7 @@ div h6{
 }
 
 
-@media (max-width: 900px) { 
-    #SPLIDE{
-        padding: 0 calc(10.7vw  - 16.486px); 
-        margin-bottom: calc(11vw + 18.564px); 
-    }
-}
+
 
 
 

@@ -165,7 +165,7 @@ h1 {
 } 
 .sell_container{ 
     display: flex; 
-    gap: calc(6.1vw + 7.21px);
+    gap: calc(7.5vw - 1.934px);
 } 
 .sell_card .time{ 
     font-family: "Chava"; 

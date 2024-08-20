@@ -604,6 +604,32 @@ div h6{
 
 
 
+.Photoshoot{
+    font-size: calc(2.7vw +  24.055px); 
+    font-weight: 500;
+    line-height: calc(3.1vw +  28.336px); 
+    text-transform: uppercase;
+    margin-bottom: calc(-0.7vw + 22.486px);  
+}
+.PhotoshootParagraph{
+    width: calc(46.4vw + 153.967px); 
+    font-size: calc(1vw + 14.271px); 
+    font-weight: 400;
+    line-height: calc(1.4vw + 19.979px); 
+    margin-bottom: calc(0.4vw +  18.343px);  
+}
+.PhotoshootIMG img{
+    width: 507px;
+    height: 507px;
+
+}
+
+
+
+
+
+
+
 
 
 

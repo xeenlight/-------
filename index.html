@@ -192,14 +192,13 @@
 
 
 
-      <section>
+    <section>
         <h2 class="UserReview">Отзывы наших студентов</h2>
-
-
+    
         <div class="splide" role="group" aria-label="Splide Basic HTML Example">
             <div class="splide__track">
-                  <ul class="splide__list">
-                      <li class="splide__slide">
+                <ul class="splide__list">
+                    <li class="splide__slide">
                         <div class="review">
                             <div>
                                 <img src="./image/youtube.svg" alt="" class="youtube">
@@ -210,9 +209,9 @@
                                 <span>Руслан Мухутдинов</span>
                             </div>
                         </div>
-                      </li>
+                    </li>
     
-                      <li class="splide__slide">
+                    <li class="splide__slide">
                         <div class="review">
                             <div>
                                 <img src="./image/youtube.svg" alt="" class="youtube">
@@ -223,9 +222,9 @@
                                 <span>Юлдашев Искандер</span>
                             </div>
                         </div>
-                      </li>
+                    </li>
     
-                      <li class="splide__slide">
+                    <li class="splide__slide">
                         <div class="review">
                             <div>
                                 <img src="./image/youtube.svg" alt="" class="youtube">
@@ -236,13 +235,13 @@
                                 <span>Махмудов Джахонгир </span>
                             </div>
                         </div>
-                      </li>
+                    </li>
     
-                  </ul>
+                </ul>
             </div>
-          </div>
-
-      </section>
+        </div>
+    
+    </section>
 
 
 
@@ -319,27 +318,87 @@
 
 
 
+
+
+
+
+
+
+      <section>
+        <h2 class="Photoshoot">Все еще сомневаешься?</h2>
+        <p class="PhotoshootParagraph">Тогда последний козырь: после каждого выпуска мы устраиваем крутые вечеринки в честь вручения дипломов!</p>
+    
+        <div class="splide1" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="PhotoshootIMG">
+                            <img src="./image/Photoshoot1.png" alt="">
+                        </div>
+                    </li>
+    
+                    <li class="splide__slide">
+                        <div class="PhotoshootIMG">
+                            <img src="./image/Photoshoot2.png" alt="">
+                        </div>
+                    </li>
+    
+                    <li class="splide__slide">
+                        <div class="PhotoshootIMG">
+                            <img src="./image/Photoshoot3.png" alt="">
+                        </div>
+                    </li>
+    
+                    <li class="splide__slide">
+                        <div class="PhotoshootIMG">
+                            <img src="./image/Photoshoot4.png" alt="">
+                        </div>
+                    </li>
+    
+                    <li class="splide__slide">
+                        <div class="PhotoshootIMG">
+                            <img src="./image/Photoshoot5.png" alt="">
+                        </div>
+                    </li>
+    
+                </ul>
+            </div>
+        </div>
+    
+     </section>
+    
+
+
+
+
+
+
+
+
+
+
+
       <script src="./splide-4.1.3/dist/js/splide.min.js"></script>
       <script src="./script.js"></script>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var splide = new Splide('.splide, .splide1', {
+      perPage: 3,
+      gap: 30,
+      rewind: true,
+      arrows: false,
+      pagination: false,
+      breakpoints: {
+        900: {
+          perPage: 1,
+        }
+      }
+    });
+    splide.mount();
+  });
+</script>
 
-     <script>
-        document.addEventListener( 'DOMContentLoaded', function() {
-          var splide = new Splide( '.splide', {
-            perPage:3,
-            gap:30,
-            rewind: true,
-            arrows: false,
-            pagination: false,
-            breakpoints:{
-                900:{
-                    perPage:1,
-                }
-            }
-            
-          } );
-          splide.mount();
-        } );
-      </script>
+      
 </body>
 </html>

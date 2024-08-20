@@ -618,16 +618,33 @@ div h6{
     line-height: calc(1.4vw + 19.979px); 
     margin-bottom: calc(0.4vw +  18.343px);  
 }
-.PhotoshootIMG img{
-    width: calc(19.8vw + 253.829px); 
-    height: calc(19.8vw + 253.829px); 
+.PhotoshootIMG{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.PhotoshootIMG img {
+    width: 100%;
+    height: auto;
 }
 
 
 
+#SPLIDE{
+    padding: 0; 
+    margin: 0; 
+    margin-left: calc(10.7vw  - 16.486px); 
+    margin-bottom: calc(11vw + 18.564px); 
+}
 
 
+@media (max-width: 900px) { 
+    #SPLIDE{
+        padding: 0 calc(10.7vw  - 16.486px); 
+        margin-bottom: calc(11vw + 18.564px); 
+    }
+}
 
 
 

@@ -619,8 +619,8 @@ div h6{
     margin-bottom: calc(0.4vw +  18.343px);  
 }
 .PhotoshootIMG img{
-    width: 507px;
-    height: 507px;
+    width: calc(19.8vw + 253.829px); 
+    height: calc(19.8vw + 253.829px); 
 
 }
 

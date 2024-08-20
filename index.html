@@ -195,7 +195,7 @@
     <section>
         <h2 class="UserReview">Отзывы наших студентов</h2>
     
-        <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide splide1" role="group" aria-label="Splide Basic HTML Example">
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
@@ -328,7 +328,7 @@
         <h2 class="Photoshoot">Все еще сомневаешься?</h2>
         <p class="PhotoshootParagraph">Тогда последний козырь: после каждого выпуска мы устраиваем крутые вечеринки в честь вручения дипломов!</p>
     
-        <div class="splide1" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide splide2" role="group" aria-label="Splide Basic HTML Example">
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
@@ -364,7 +364,6 @@
                 </ul>
             </div>
         </div>
-    
      </section>
     
 
@@ -377,27 +376,58 @@
 
 
 
+     
+
+
+
+
+
+
+
 
       <script src="./splide-4.1.3/dist/js/splide.min.js"></script>
+      
+      <script>
+          document.addEventListener('DOMContentLoaded', function() {
+              var splide1 = new Splide('.splide1', {
+                  perPage: 3,
+                  gap: 30,
+                  rewind: true,
+                  arrows: false,
+                  pagination: false,
+                  breakpoints: {
+                      900: {
+                          perPage: 1,
+                      }
+                  }
+              });
+              splide1.mount();
+  
+              var splide2 = new Splide('.splide2', {
+                  perPage: 3,
+                  gap: 30,
+                  rewind: true,
+                  arrows: false,
+                  pagination: false,
+                  breakpoints: {
+                      900: {
+                          perPage: 1,
+                      }
+                  }
+              });
+              splide2.mount();
+          });
+      </script>
+      
+      
       <script src="./script.js"></script>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var splide = new Splide('.splide, .splide1', {
-      perPage: 3,
-      gap: 30,
-      rewind: true,
-      arrows: false,
-      pagination: false,
-      breakpoints: {
-        900: {
-          perPage: 1,
-        }
-      }
-    });
-    splide.mount();
-  });
-</script>
+
+
+
+      
+      
+      
 
       
 </body>

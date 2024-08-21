@@ -165,7 +165,14 @@ h1 {
 } 
 .sell_container{ 
     display: flex; 
-    gap: calc(7.5vw - 1.934px);
+    gap: calc(5vw - 3.646px);
+} 
+.sale_text{ 
+    opacity: 0;
+    font-size: calc(2vw + 26.541px); 
+    line-height: 117%;  
+    color: white;  
+    text-align: center; 
 } 
 .sell_card .time{ 
     font-family: "Chava"; 

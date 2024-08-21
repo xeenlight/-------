@@ -1,7 +1,13 @@
-function correctDate(date) {
-    return date <= 10 ? "0" + date : date;
-}
 
+function correctDate(date){ 
+    if(date<=9){ 
+        date= "0"+date 
+    } 
+    else{ 
+        date 
+    } 
+    return date 
+} 
 function saleData() {
     let newData = new Date();
     let saledate = new Date(2024, 7, 25);
@@ -45,3 +51,4 @@ saleData();
 setInterval(() => {
     saleData();
 }, 1000);
+

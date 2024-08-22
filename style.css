@@ -654,13 +654,13 @@ footer{
     padding: calc(4.4vw +  23.425px)   calc(10.7vw  - 17.193px) calc(2.3vw +   50.298px) calc(7.4vw  - 3.762px); 
     background-color: #222222; 
     display: flex; 
-    gap: calc(6.1vw +  67.21px);
+    gap: calc(8vw + 67.21px);
     flex-direction: row;
     flex-wrap: wrap;
  
 } 
 .footerleft{ 
-    width: calc(20.5vw + 258.144px);
+    width: calc(12.1vw + 268.293px);
     color: white; 
     flex-wrap: wrap;
      

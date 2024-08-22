@@ -708,6 +708,7 @@ footer{
     margin-bottom: 30px;
 }
 .footerright input {
+    font-size: calc(0.2vw + 17.171px);
     width: calc(7.8vw + 237.58px);
     height: calc(0.3vw +  35.757px);
     border: none; 

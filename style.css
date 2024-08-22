@@ -660,7 +660,7 @@ footer{
  
 } 
 .footerleft{ 
-    width: 440px; 
+    width: calc(20.5vw + 258.144px);
     color: white; 
     flex-wrap: wrap;
      
@@ -756,6 +756,7 @@ footer{
     gap: calc(0.3vw + 20.464px);
 }
 .record span{ 
+    width: calc(15.1vw + 203.232px);
     font-size: calc(1vw +  14.271px); 
     font-weight: 400;
     color: #FFFFFF; 
@@ -783,7 +784,7 @@ footer{
     height: calc(0.3vw + 35.757px);
     border: none;
     border-bottom: 2px solid rgba(161, 161, 161, 0.42);
-    padding-left: 80px; 
+    padding-left: calc(2.2vw + 71.713px);
     font-size: calc(0.2vw + 17.171px);
     font-weight: 400;
     box-sizing: border-box;

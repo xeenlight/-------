@@ -1,3 +1,24 @@
+document.getElementById('phone-input').addEventListener('input', function(event) {
+    let input = event.target.value.replace(/\D/g, ''); // Убираем все нецифровые символы
+    let formatted = '';
+
+    if (input.length > 0) {
+        formatted += '(' + input.substring(0, 2);
+    }
+    if (input.length > 2) {
+        formatted += ')' + input.substring(2, 5);
+    }
+    if (input.length > 5) {
+        formatted += '-' + input.substring(5, 7);
+    }
+    if (input.length > 7) {
+        formatted += '-' + input.substring(7, 9);
+    }
+
+    event.target.value = formatted;
+});
+
+
 
 function correctDate(date){ 
     if(date<=9){ 

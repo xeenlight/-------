@@ -400,14 +400,22 @@
             <form action="">
                 <input type="text" placeholder="Имя">
                 <input type="text" placeholder="Фамилия">
-                <input type="tel" id="phone" placeholder="+998"  required>
+                <div class="phone-input-wrapper">
+                    <input type="tel" id="phone-input" class="phone-number" maxlength="14" placeholder="Введите номер" />
+                    <div class="phone-prefix-container">
+                        <img src="./image/uz.svg" alt="Country Flag" class="phone-flag">
+                        <span class="phone-prefix">+998</span>
+                    </div>
+                </div>
             </form>
+            
+            
             <button class="CurseButton">Записаться на курс</button>
             <span class="vopros">Остались вопросы?</span> 
             <p>звони: +998 33 135 33 55 
                 <br>наши консультанты доступны каждый день  
                 с 10:00 до 22:00.</p> 
- 
+
         </div> 
       </footer>
 

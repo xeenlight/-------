@@ -769,11 +769,59 @@ footer{
     background: #6E3ABA; 
     margin-bottom: 41px;
 }
+
+.phone-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: calc(7.8vw + 237.58px); 
+}
+
+
+.phone-number {
+    width: 100%;
+    height: calc(0.3vw + 35.757px);
+    border: none;
+    border-bottom: 2px solid rgba(161, 161, 161, 0.42);
+    padding-left: 80px; 
+    font-size: calc(0.2vw + 17.171px);
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.phone-prefix-container {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    height: 100%;
+}
+
+.phone-flag {
+    width: 24px; 
+    margin-right: 4px; 
+}
+
+.phone-prefix {
+    font-size: calc(0.2vw + 17.171px);
+    font-weight: 500;
+    color: black;
+}
+
+.phone-number::placeholder {
+    color: black;
+}
+
+
+
 @media (max-width: 900px) { 
     .sale{ 
         top: -53px; 
         left: auto;
-        right: -10px;
+        right: -14px;
     } 
 }
 
